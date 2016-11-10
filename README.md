@@ -1,7 +1,10 @@
 # Experiment 001a
 
-## Abstract
-Experiment 001a tests conditional compilation for the programming language Go.
+## About
+Experiment 001a is a support package for Experiment 001 to test conditional
+compilation for the programming language Go.
+
+Experiment 001a is published on <https://github.com/vbsw/exp-001a>.
 
 ## Copying
 This is free and unencumbered software released into the public domain.
@@ -31,8 +34,7 @@ For more information, please refer to <http://unlicense.org>
 
 ## Compilation
 
-	$ go get github.com/vbsw/exp-001
-	$ go install -tags 'alice' github.com/vbsw/exp-001
+	$ go get -tags 'alice' github.com/vbsw/exp-001
 
 ## References
 - <http://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool>
