@@ -29,5 +29,5 @@ package exp001_impl
 import "fmt"
 
 func PrintSpecificMessage ( ) {
-	fmt.Println("alice")
+	fmt.Println("alice v1.0.0")
 }
